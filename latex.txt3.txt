@@ -1,0 +1,96 @@
+\documentclass{beamer}
+
+%INformation to be included in the title page:
+\title{REPEATING DECIMALS}
+
+
+\author{Batch - 32\\
+  21B01A12E2 : P.Reshma : IT-C\\
+  21B01A54C6 : V.Jaya Gayathri : AI&DS\\
+  21B01A0207 : D.Srihitha : EEE\\
+  21B01A1257 : G.Manaswi : IT-A\\
+  21B01A0208 : D.Harshita : EEE\\}
+\institute{SVECW}
+\date{March 25, 2023}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Problem Statement:- }
+
+  
+\begin{enumerate}
+\item  To read a card containing two positive integers in format 2110, namely x and y.
+\item Skip two lines and print the third time repeating group indicating the decimal equivalent of x/y in repeating decimal format. If the rational numbers has exact finite decimals, print it without repeating group.
+\item Print a line showing the complexity if more than 100 digits follow the decimal point.
+\end{enumerate}
+
+
+\end{frame}
+
+\begin{frame}{Approach}
+    The Approach we used is:\\
+\         In order to determine the value of x/y, we created a funtion program of dividing two numbers using exceptions.\\ Using the divmod function, the values before and after decimal are determined separately.\\
+      \  we built a user-function named repeating decimals.         
+      \\           
+\end{frame}
+
+
+\begin{frame}{Learnings}	
+     We Learned:\\
+     \
+\begin{enumerate}
+\item We discovered that working together as a team is highly beneficial so that we can share all of our ideas for a better execution of our work.\\
+\item We learned how to empoly user-defined functions like repeating decimals.\\
+\item We discovered how to use methods like try block and exception block.\\
+\item We learned about the git commands.\\
+\item We gained knowledge about how to use LaTex to create presentations.\\
+\end{enumerate}
+     \end{frame}
+     
+     \begin{frame}{Challenges}
+     Challenges we faced:\\
+\begin{enumerate}
+\item we faced difficulty while working on functions.\\
+\item It has been difficult to combine three different questions into one single program.\\
+\item Thanks to our teamwork!. we worked on our project peacefully from understanding and resolving codes to implementing and documenting it.\\
+\item The work was shared in order to make our work easier, such as working on creating functions, importing files, locating repeated values in the output, and altering the code when errors occurred.\\
+\end{enumerate}
+     \end{frame}
+     
+     
+     \begin{frame}{Statistics}
+     
+\begin{enumerate}
+\item  Overall number of lines in our file is 42 lines.\\
+\item We used one functions.repeatingdecimals that takes two integer arguments numerator and denominator.
+
+\end{enumerate}
+
+     \end{frame}
+     
+     
+     \begin{frame}
+     \frametitle{Demo/screenshot of the program}
+
+     
+     \usepackage{}
+     \centering
+     \href{https://gitlab.com/pettareshma/repeating-decimals.git}{click here to go to our gitlab project.}.
+     \includegraphics[width=\linewidth ]{code1.png}
+      \end{frame}
+     \caption{PROGRAM}
+      \includegraphics[width=\linewidth ]{code2.png}
+     \begin{frame}
+     \usepackage{}
+     \centering
+     \includegraphics[width=\linewidth]{output.png}
+     \caption{OUTPUT}
+     \end{frame}
+     \begin{frame}
+      \centering
+      \large
+     THANK YOU
+         
+     \end{frame}
+\end{document}
